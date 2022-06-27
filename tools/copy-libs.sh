@@ -230,7 +230,7 @@ for item; do
 						# do we already have this file?
 						if [[ $LD_LIB_FILES != *"$item"* ]]; then
 							# do we already have lib with the same name?
-							if [[ $LD_LIBS != *"-l$lname"* ]]; then
+							if [[ $LD_LIBS != *"-l$lname "* ]]; then
 								# echo "collecting lib '$lname' and file: $item"
 								LD_LIB_FILES+="$item "
 								LD_LIBS+="-l$lname "
