@@ -9,15 +9,15 @@ IDF_TOOLCHAIN_WIN32="https://github.com/espressif/arduino-esp32/releases/downloa
 IDF_TOOLCHAIN_MACOS="https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-macos-1.22.0-97-gc752ad5-5.2.0.tar.gz"
 
 if [ -z $IDF_BRANCH ]; then
-	IDF_BRANCH="release/v3.3"
+	IDF_BRANCH="miot_v4.0"
 fi
 
 if [ -z $AR_PR_TARGET_BRANCH ]; then
-	AR_PR_TARGET_BRANCH="release/v1.0"
+	AR_PR_TARGET_BRANCH="arduino_miot"
 fi
 
 # Owner of the target ESP32 Arduino repository
-AR_USER="espressif"
+AR_USER="Huwensong"
 
 # The full name of the repository
 AR_REPO="$AR_USER/arduino-esp32"
